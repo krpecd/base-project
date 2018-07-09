@@ -217,3 +217,15 @@ This variables are for writing **Mobile first** method. If you are using **Deskt
   }
 }
 ```
+
+
+##SVG sprites
+`gulp svg-sprite` command
+SVG sprite is made from every SVG file in folder `./images/svg` into `./svg/stack/svg/sprite.stack.svg` file.
+
+**Usage in code:**
+```html
+<svg>
+  <use xlink:href="/svg/stack/svg/sprite.stack.svg#fileName"></use>
+</svg>
+```

@@ -17,7 +17,9 @@ const paths = {
   sassWatchPath: './src/scss/**/*.scss',
   cssOutputFile: './css/main.css',
   cssOutputFolder: './css',
-  smartyWatchPath: './**/*.tpl'
+  smartyWatchPath: './**/*.tpl',
+  svgEntryFiles: './images/svg/*.svg',
+  svgOutputFolder: './svg/'
 };
 
 //BrowsersList config for autoprefixer
